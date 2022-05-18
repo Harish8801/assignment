@@ -1,6 +1,6 @@
 import React from 'react';
 import "./navbar.css";
-import Logo from './navbar/Logo';
+import Logo from "./c"
 import Link from './navbar/Link';
 
 
@@ -18,7 +18,9 @@ function Navbar() {
             <div>
                 
             </div>
+
         </div>
+
     </div>
     </>
   )
