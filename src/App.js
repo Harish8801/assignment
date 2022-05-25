@@ -1,6 +1,7 @@
 
 import './App.css';
-import Todo from './components/todolist/Todo';
+// import Employ from "./components/PaymentCard/Employ";
+// import Todo from './components/todolist/Todo';
 // import Counter from './components/counter/Counter';
 // import Func from "./components/vom101/Func";
 // import Navbar from "./components/hub/Navbar"
@@ -12,7 +13,8 @@ function App() {
    {/* <Func/> */}
    {/* <Navbar/> */}
 
-   <Todo/>
+   {/* <Todo/> */}
+   {/* <Employ/> */}
     </div>
   );
 }
