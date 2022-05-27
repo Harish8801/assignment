@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./timer.css";
-const StopWatch = () => {
+const Timer = () => {
 
 
     const [timerId,setTimerId]=useState(null);
@@ -10,7 +10,7 @@ const StopWatch = () => {
         if (!timerId){
             let id =setInterval(()=>{
                 setWatch((prev)=>prev+1);
-            },1000);
+            },500);
             setTimerId(id);
 
         }
@@ -42,4 +42,4 @@ const StopWatch = () => {
   )
 }
 
-export default StopWatch
+export default Timer;

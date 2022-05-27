@@ -1,6 +1,6 @@
 
 import './App.css';
-import StopWatch from './components/googlestopwatch/StopWatch';
+import Timer from './components/googlestopwatch/Timer';
 // import Fcomponent from './components/googletimer/FComponent';
 // import Employ from "./components/PaymentCard/Employ";
 // import Todo from './components/todolist/Todo';
@@ -22,7 +22,7 @@ function App() {
    {/* <Todo/> */}
    {/* <Employ/> */}
   {/* <FComponent/> */}
-  <StopWatch/>
+  <Timer/>
    
 
   
