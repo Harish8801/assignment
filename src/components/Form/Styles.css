@@ -1,0 +1,80 @@
+body{
+    background-color: #a3edc834;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-top: 5%;
+   
+}
+.form{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+   padding: 35px;
+   border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    margin-top: 0;
+    background-color: #0b2ac4;
+    border-radius: 15px;
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.submit{
+    width: 240px;
+    text-align: center;
+    margin-left: 100px;
+    border: none;
+    background-color:#0b27c4;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+cursor: pointer;
+margin-top: 3%;
+}
+
+.submitShow{
+    width: 240px;
+    text-align: center;
+    margin: 20px 0 0 10px;
+    border: none;
+    background-color:#0b27c4;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+
+}
+.submit:active{
+background-color: rgb(20, 83, 220);
+}
+.name{
+    background-color: rgb(113, 183, 195);
+    border: none;
+    height: 40px;
+    width: 230px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+.name:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.show{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    height: 400px;
+    width: 360px;
+    border-radius: 6px;
+    text-align: center;
+}
+.name-show{
+    color: rgb(30, 58, 240);
+}
