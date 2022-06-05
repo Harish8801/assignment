@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+
+  margin-bottom: 0;
+  box-shadow: rgba(92, 226, 121, 0.623) 0px 5px 15px;
+  padding: 10px;
+  width: 100%;
+}
+h2 {
+  color: white;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+  color: rgb(22, 255, 84);
+  margin-bottom: 10px;
+}
+.colour {
+  color: yellow;
+  margin: 0;
+}
+.xblock {
+  box-sizing: border-box;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 80px;
+  margin: 0;
+  height: 70px;
+  box-shadow: rgba(13, 55, 95, 0.808) 0px 5px 15px;
+}
+.winner {
+  width: 40%;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.row {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 0;
+  display: flex;
+  padding-right: 0;
+  width: 18%;
+  margin: auto;
+}
+.b-bottom-right {
+  border-bottom: 5px solid rgb(73, 127, 228);
+  border-right: 5px solid rgb(73, 127, 228);
+}
+.b-bottom {
+  border-bottom: 5px solid rgb(73, 127, 228);
+}
+.b-right {
+  border-right: 5px solid rgb(73, 127, 228);
+}
+button {
+  margin-top: 40px;
+  padding: 8px 40px;
+  
+  font-size: 18px;
+  cursor: pointer;
+  transition: 500ms ease;
+  
+  background: linear-gradient(
+    rgba(216, 151, 90, 0.575),
+    rgba(95, 167, 66, 0.568) 10%,
+    rgb(64, 127, 185)
+  );
+  color: white;
+}
+button:hover{
+  background: linear-gradient(
+    rgba(216, 90, 90, 0.575),
+    rgba(167, 66, 66, 0.568) 10%,
+    rgb(7, 7, 7)
+  );
+  color: white;
+  transform: scale(1.05);
+  letter-spacing: 1px;
+}
