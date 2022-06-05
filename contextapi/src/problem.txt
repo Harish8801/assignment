@@ -1,0 +1,28 @@
+
+state uplifting ?
+-
+
+-React 
+    -useState  //variable//updateFunction
+    //create a state variable 
+    -useReducer // variable //dispatch=>monitiored action on state 
+    //create a state  Variable 
+    //update /rerender dom when the state variable is updated
+    -useEffect
+    -useRef
+    -Styling Library
+          -.css
+          -.module.css
+          -styled-components
+          -Chakra-uplifting
+
+
+ 2 Weeks
+ How to make our life Simpler
+
+ //create a Context
+ //create a provider
+ //wrap the application in provider
+ //wrap the application anywhere using useContext
+
+          
